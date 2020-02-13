@@ -15,7 +15,7 @@ namespace Lab_5._3
 
         public override string ToString()
         {
-            return base.ToString() + $"\t{mileage} miles";
+            return base.ToString() + $"{mileage,10} miles";
         }
     }
 }

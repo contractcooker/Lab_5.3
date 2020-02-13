@@ -13,8 +13,7 @@ namespace Lab_5._3
             carLot.AddCar(new UsedCar("Lexus", "GS350", 2013, 25000, 65000));
 
             while (flag)
-            {
-                
+            {                
                 carLot.ListCar();
                 Console.Write("Which car would you like? ");
 

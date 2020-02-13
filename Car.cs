@@ -35,7 +35,7 @@ namespace Lab_5._3
 
         public override string ToString()
         {
-            return $"{make}\t{model}\t{year}\t${price}";
+            return $" {make}{model,10}{year,10}{price,15:C}";
         }
     }
 }

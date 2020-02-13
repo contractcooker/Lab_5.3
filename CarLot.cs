@@ -16,11 +16,14 @@ namespace Lab_5._3
         }
         public void ListCar()
         {
-            Console.WriteLine("   Make\t\tModel\tYear\tPrice\tMileage");
+            Console.WriteLine("   {0}{1,11}{2,10}{3,10}{4,17}","Make","Model","Year","Price","Mileage");            
+            Console.WriteLine("----------------------------------------------------------------");
             for (int i = 0; i < Inventory.Count; i++)
             {
-                Console.WriteLine($"{i+1}. {Inventory[i]}");
+                Console.WriteLine($"{i+1}.{Inventory[i]}");
+
             }
+            Console.WriteLine("----------------------------------------------------------------");
             Console.WriteLine($"{Inventory.Count + 1}. Add a car");
             Console.WriteLine($"{Inventory.Count + 2}. Quit");
             Console.WriteLine();
